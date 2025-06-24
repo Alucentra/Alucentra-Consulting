@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+}
+
+.App-link {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import { Card, CardContent } from "./components/ui/Card";
 import { Button } from "./components/ui/Button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -64,9 +65,9 @@ export default function Home() {
           <p className="text-gray-600 mb-6">
             Let’s talk about how Alucentra can help you navigate complex transformation challenges.
           </p>
-          <a href="mailto:info@usdeckers.com">
+          <Link to="/contact">
             <Button className="rounded-xl px-6 py-3 text-lg">Contact Us</Button>
-          </a>
+          </Link>
         </section>
       </div>
     </div>

@@ -5,7 +5,7 @@ import Contact from "./Contact";
 
 export default function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <nav className="bg-white shadow p-4 flex justify-center space-x-8 text-lg font-medium">
         <Link to="/" className="hover:text-indigo-600">
           Home

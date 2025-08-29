@@ -1,5 +1,6 @@
 {
   "name": "web",
+  "homepage": "https://alucentra.github.io/",
   "version": "0.1.0",
   "framer-motion": "^12.19.1",
   "dependencies": {

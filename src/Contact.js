@@ -30,54 +30,67 @@ export default function Contact() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
+    <div
+      className="min-h-screen bg-cover bg-center text-gray-800 p-6"
+      style={{
+        backgroundImage:
+          "url('https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1470&q=80')",
+      }}
+    >
+      <div className="bg-white/70 backdrop-blur-sm max-w-2xl mx-auto rounded-xl p-8 mt-12">
+        <header className="text-center mb-8">
+          <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
+          <p className="text-lg text-gray-700 max-w-xl mx-auto">
+            We'd love to hear from you! Fill out the form below and we'll get back to you soon.
+          </p>
+        </header>
 
-      {submitted ? (
-        <p className="text-green-600 text-lg">
-          ✅ Thank you for reaching out! We'll get back to you soon.
-        </p>
-      ) : (
-        <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
-          <label>
-            Name
-            <input
-              type="text"
-              name="name"
-              required
-              className="border mt-1 p-2 rounded w-full"
-            />
-          </label>
+        {submitted ? (
+          <p className="text-green-600 text-lg text-center">
+            ✅ Thank you for reaching out! We'll get back to you soon.
+          </p>
+        ) : (
+          <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
+            <label>
+              Name
+              <input
+                type="text"
+                name="name"
+                required
+                className="border mt-1 p-2 rounded w-full"
+              />
+            </label>
 
-          <label>
-            Email
-            <input
-              type="email"
-              name="email"
-              required
-              className="border mt-1 p-2 rounded w-full"
-            />
-          </label>
+            <label>
+              Email
+              <input
+                type="email"
+                name="email"
+                required
+                className="border mt-1 p-2 rounded w-full"
+              />
+            </label>
 
-          <label>
-            Message
-            <textarea
-              name="message"
-              rows="5"
-              required
-              className="border mt-1 p-2 rounded w-full"
-            ></textarea>
-          </label>
+            <label>
+              Message
+              <textarea
+                name="message"
+                rows="5"
+                required
+                className="border mt-1 p-2 rounded w-full"
+              ></textarea>
+            </label>
 
-          <button
-            type="submit"
-            className="bg-indigo-600 text-white px-6 py-3 rounded hover:bg-indigo-700 transition"
-            disabled={loading}
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
-        </form>
-      )}
+            <button
+              type="submit"
+              className="bg-indigo-600 text-white px-6 py-3 rounded hover:bg-indigo-700 transition"
+              disabled={loading}
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+          </form>
+        )}
+      </div>
     </div>
   );
 }

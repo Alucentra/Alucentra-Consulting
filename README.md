@@ -37,6 +37,7 @@ Comprehensive documentation is available in the `/docs/` folder:
 - **[Main Documentation](./docs/README.md)** - Complete overview and architecture
 - **[Component API](./docs/component-api.md)** - Technical component reference  
 - **[Content Strategy](./docs/content-strategy.md)** - Brand guidelines and messaging
+- **[Website Content](./docs/website-content.md)** - Complete website content reference
 - **[Technical Specs](./docs/technical-specs.md)** - Full technical documentation
 - **[Development Roadmap](./docs/development-roadmap.md)** - Strategic planning and phases
 - **[Documentation Index](./docs/index.md)** - Navigation hub for all docs

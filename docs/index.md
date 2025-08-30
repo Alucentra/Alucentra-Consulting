@@ -57,6 +57,16 @@ Strategic planning document outlining future development phases and implementati
 - Success metrics and KPIs
 - Risk management strategies
 
+### [Website Content Reference](./website-content.md)
+Comprehensive documentation of all actual website content and messaging.
+
+**Includes:**
+- Complete text content from all pages
+- Navigation and branding elements
+- Content guidelines and voice/tone
+- Visual design elements
+- Content maintenance procedures
+
 ## 🚀 Quick Start Guide
 
 ### For Developers
@@ -68,9 +78,10 @@ Strategic planning document outlining future development phases and implementati
 6. **Plan Enhancements**: Follow [Development Roadmap](./development-roadmap.md) for planned features
 
 ### For Content Managers
-1. Study [Content Strategy & Brand Guidelines](./content-strategy.md) for brand alignment
-2. Reference [Main Documentation](./README.md) for current content structure
-3. Use brand guidelines for consistent messaging
+1. **Website Content**: Review [Website Content Reference](./website-content.md) for all current messaging
+2. **Brand Guidelines**: Study [Content Strategy & Brand Guidelines](./content-strategy.md) for brand alignment
+3. **Structure Reference**: Use [Main Documentation](./README.md) for current content structure
+4. **Voice & Tone**: Follow brand guidelines for consistent messaging
 
 ### For Project Managers
 1. Start with [Main Documentation](./README.md) for complete overview

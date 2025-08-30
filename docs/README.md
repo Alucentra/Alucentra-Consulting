@@ -26,13 +26,15 @@
 ```
 Home (/)
 ├── Services (/services)
+│   └── Strategy & Transformation (/services/strategy)
 ├── About (/about)
 └── Contact (/contact)
 ```
 
 ### Page Hierarchy
 1. **Home** - Landing page with overview and call-to-action
-2. **Services** - Detailed service offerings
+2. **Services** - Detailed service offerings with sub-page navigation
+   - **Strategy & Transformation** - Comprehensive strategy consulting details
 3. **About** - Company mission, values, and brand story
 4. **Contact** - Contact form with Formspree integration
 
@@ -107,6 +109,7 @@ C:\Repo\Alucentra Consulting\
 │   ├── App.css          # Global styles
 │   ├── Home.js          # Landing page
 │   ├── Services.js      # Services overview
+│   ├── Strategy.js      # Strategy & Transformation details
 │   ├── About.js         # Company information
 │   ├── Contact.js       # Contact form
 │   └── components/

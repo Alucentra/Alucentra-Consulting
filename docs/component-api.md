@@ -92,18 +92,46 @@ Landing page component with hero section and service overview.
 ### Services Component
 **File:** `src/Services.js`
 
-Service listing page with detailed service descriptions.
+Service listing page with detailed service descriptions and navigation to sub-pages.
 
 **Features:**
 - 2x2 grid layout on desktop
 - Individual service cards
 - Responsive design
+- Interactive Strategy & Transformation card with link to sub-page
 
 **Services Listed:**
-1. Strategy & Transformation
+1. Strategy & Transformation (clickable - links to `/services/strategy`)
 2. Process Design
 3. Change Management
 4. Consulting & Advisory
+
+### Strategy Component
+**File:** `src/Strategy.js`
+
+Comprehensive Strategy & Transformation service page with detailed information.
+
+**Features:**
+- Breadcrumb navigation
+- Service overview with approach icons
+- Detailed service areas (4 main areas)
+- Process visualization (4-step process)
+- Why choose us section
+- Call-to-action with multiple buttons
+
+**Content Sections:**
+- Hero section with service description
+- Our approach (3-column layout with icons)
+- What we deliver (4 service areas)
+- Our process (4-step methodology)
+- Why choose Alucentra (2-column benefits)
+- Call-to-action section
+
+**Service Areas Covered:**
+1. Digital Transformation Strategy
+2. Organizational Restructuring
+3. Strategic Planning
+4. Culture Transformation
 
 ### About Component
 **File:** `src/About.js`

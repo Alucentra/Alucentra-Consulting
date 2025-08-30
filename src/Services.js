@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
@@ -17,12 +18,18 @@ export default function Services() {
           </p>
         </header>
         <section className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white rounded-xl shadow p-6">
-            <h2 className="text-xl font-semibold mb-2">Strategy & Transformation</h2>
-            <p className="text-gray-600">
-              Guiding organizations through change with clarity, purpose, and actionable strategies.
-            </p>
-          </div>
+          <Link to="/services/strategy" className="block">
+            <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-shadow duration-200 cursor-pointer border-2 border-transparent hover:border-indigo-200">
+              <h2 className="text-xl font-semibold mb-2 text-indigo-700">Strategy & Transformation</h2>
+              <p className="text-gray-600 mb-3">
+                Guiding organizations through change with clarity, purpose, and actionable strategies.
+              </p>
+              <div className="text-indigo-600 text-sm font-medium flex items-center">
+                Learn More
+                <span className="ml-1">→</span>
+              </div>
+            </div>
+          </Link>
           <div className="bg-white rounded-xl shadow p-6">
             <h2 className="text-xl font-semibold mb-2">Process Design</h2>
             <p className="text-gray-600">

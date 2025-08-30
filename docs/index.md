@@ -92,7 +92,12 @@ Alucentra Consulting Website
 │   └── Call-to-Action Section
 ├── Services (/services)
 │   ├── Service Overview
-│   └── 4 Core Service Areas
+│   ├── 4 Core Service Areas
+│   └── Strategy & Transformation (/services/strategy)
+│       ├── Detailed Service Information
+│       ├── Process Methodology
+│       ├── Service Areas (4 specializations)
+│       └── Call-to-Action
 ├── About (/about)
 │   ├── Company Description
 │   ├── Mission Statement

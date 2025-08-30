@@ -1,0 +1,33 @@
+{
+    "folders": [
+        {
+            "name": "Alucentra Consulting Website",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+        "emmet.includeLanguages": {
+            "javascript": "javascriptreact"
+        },
+        "css.validate": false,
+        "tailwindCSS.includeLanguages": {
+            "javascript": "javascript",
+            "html": "HTML"
+        },
+        "editor.quickSuggestions": {
+            "strings": true
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "bradlc.vscode-tailwindcss",
+            "ms-vscode.vscode-typescript-next",
+            "formulahendry.auto-rename-tag",
+            "christian-kohler.path-intellisense",
+            "ms-vscode.vscode-json",
+            "GitHub.copilot",
+            "GitHub.copilot-chat"
+        ]
+    }
+}

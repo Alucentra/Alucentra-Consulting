@@ -6,6 +6,7 @@ import About from "./About";
 import Services from "./Services";
 import Strategy from "./Strategy";
 import ProcessDesign from "./ProcessDesign";
+import ChangeManagement from "./ChangeManagement";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/services/strategy" element={<Strategy />} />
         <Route path="/services/process-design" element={<ProcessDesign />} />
+        <Route path="/services/change-management" element={<ChangeManagement />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

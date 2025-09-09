@@ -400,6 +400,101 @@ Gain market leadership through superior operational performance, faster delivery
 
 ---
 
+## 🔄 CHANGE MANAGEMENT PAGE (`/services/change-management`)
+
+### Hero Section
+**Heading**: Change Management  
+**Tagline**: Empowering people, teams, and cultures to adapt and excel through structured, research-based methodologies that ensure successful transformation.
+
+### Service Overview
+**Section Title**: Our Approach  
+**Content**: At Alucentra, we leverage PROSCI's evidence-based change management methodology and the proven ADKAR model to guide individuals and organizations through successful transitions. Our structured approach addresses both the technical and human sides of change, ensuring sustainable adoption and lasting results.
+
+### Methodology Credibility - PROSCI Research Foundation
+**Research Statistics**:
+- 25+ years of change management research
+- 5,000+ organizations studied globally
+- 6x more likely to meet objectives with structured change management
+- 143% ROI average return on change management investment
+
+**Global Recognition**:
+- 190+ countries using PROSCI methodology
+- Fortune 500 companies trust PROSCI
+- 1 million+ professionals trained worldwide
+- Top-rated change management certification
+
+### ADKAR Model Elements
+1. **Awareness**: Understanding why change is needed
+2. **Desire**: Personal motivation to support change
+3. **Knowledge**: Skills and information to change
+4. **Ability**: Demonstrated skills and behaviors
+5. **Reinforcement**: Sustaining the change over time
+
+### Service Deliverables
+1. **Change Strategy & Planning**
+   - Change management strategy development
+   - Stakeholder impact assessment
+   - Change readiness evaluation
+   - Risk and resistance analysis
+   - ADKAR assessment tools
+
+2. **Communication & Engagement**
+   - Targeted communication strategies
+   - Stakeholder engagement plans
+   - Change champion networks
+   - Feedback and pulse surveys
+   - Town halls and workshops
+
+3. **Training & Development**
+   - Skills gap analysis
+   - Training program design
+   - Learning management systems
+   - Manager and leader coaching
+   - Performance support tools
+
+4. **Reinforcement & Sustainability**
+   - Performance measurement systems
+   - Recognition and rewards programs
+   - Continuous improvement processes
+   - Change capability building
+   - Lessons learned documentation
+
+### Benefits with Metrics
+**Higher Success Rates**:
+- 95% project success rate with excellent change management
+- 16% success rate without change management
+- 2.3x faster adoption of changes
+
+**Reduced Resistance**:
+- 70% reduction in change resistance
+- 80% higher employee engagement
+- 50% faster time to competency
+
+**Financial Returns**:
+- 143% average ROI on change management
+- $30 saved for every $1 invested
+- 25% faster benefit realization
+
+**Organizational Capability**:
+- Improved change agility
+- Enhanced leadership skills
+- Stronger organizational resilience
+
+### Application Areas
+- Digital Transformation
+- Organizational Restructuring
+- Process Improvements
+- Cultural Transformation
+- Strategic Initiatives
+- Regulatory Compliance
+
+### Call-to-Action
+**Primary Button**: Transform with Confidence  
+**Secondary Button**: View All Services  
+**Supporting Text**: Let's discuss how our PROSCI-certified change management approach can help you navigate transformation, engage your people, and achieve lasting results that stick.
+
+---
+
 ## 🔄 Content Maintenance
 
 ### Regular Review Items
@@ -424,7 +519,7 @@ Gain market leadership through superior operational performance, faster delivery
 
 ---
 
-**Last Updated**: August 30, 2025  
-**Content Version**: 1.0  
-**Total Pages**: 5 (Home, Services, Strategy, About, Contact)  
-**Total Word Count**: ~1,200 words across all pages
+**Last Updated**: September 9, 2025  
+**Content Version**: 1.1  
+**Total Pages**: 7 (Home, Services, Strategy, Process Design, Change Management, About, Contact)  
+**Total Word Count**: ~1,800 words across all pages

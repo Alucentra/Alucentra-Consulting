@@ -42,12 +42,18 @@ export default function Services() {
               </div>
             </div>
           </Link>
-          <div className="bg-white rounded-xl shadow p-6">
-            <h2 className="text-xl font-semibold mb-2">Change Management</h2>
-            <p className="text-gray-600">
-              Empowering people, teams, and cultures to adapt and excel in evolving environments.
-            </p>
-          </div>
+          <Link to="/services/change-management" className="block">
+            <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-shadow duration-200 cursor-pointer border-2 border-transparent hover:border-purple-200">
+              <h2 className="text-xl font-semibold mb-2 text-purple-700">Change Management</h2>
+              <p className="text-gray-600 mb-3">
+                Empowering people, teams, and cultures to adapt and excel in evolving environments.
+              </p>
+              <div className="text-purple-600 text-sm font-medium flex items-center">
+                Learn More
+                <span className="ml-1">→</span>
+              </div>
+            </div>
+          </Link>
           <div className="bg-white rounded-xl shadow p-6">
             <h2 className="text-xl font-semibold mb-2">Consulting & Advisory</h2>
             <p className="text-gray-600">

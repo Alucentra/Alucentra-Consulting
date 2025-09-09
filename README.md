@@ -66,7 +66,7 @@ Comprehensive documentation is available in the `/docs/` folder:
 **Environment**: Development  
 **Server**: http://localhost:3000 (or next available port)  
 **Deployment**: https://alucentra.github.io  
-**Pages**: 6 (Home, Services, Strategy, Process Design, About, Contact)  
+**Pages**: 7 (Home, Services, Strategy, Process Design, Change Management, About, Contact)  
 
 ## 🎨 Brand Identity
 

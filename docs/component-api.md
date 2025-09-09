@@ -167,6 +167,46 @@ Comprehensive Process Design service page focusing on Six Sigma and Lean methodo
 3. Workflow Optimization
 4. Continuous Improvement Framework
 
+### Change Management Component
+**File:** `src/ChangeManagement.js`
+
+Comprehensive Change Management service page featuring PROSCI and ADKAR methodologies.
+
+**Features:**
+- Breadcrumb navigation
+- PROSCI credibility data and research foundation
+- ADKAR model visualization (5-element framework)
+- Service deliverables (4 main areas)
+- Benefits section with quantified results
+- Change management applications showcase
+- Call-to-action with multiple buttons
+
+**Content Sections:**
+- Hero section with people-centric approach
+- Our approach (3-column layout with focus areas)
+- PROSCI credibility (research foundation & global recognition)
+- ADKAR model (5-element individual change framework)
+- What we deliver (4 deliverable areas)
+- Benefits (4 benefit categories with ROI metrics)
+- Application areas (6 transformation types)
+- Call-to-action section
+
+**Methodologies Featured:**
+1. PROSCI Methodology (25+ years research, 5,000+ organizations)
+2. ADKAR Model (Awareness, Desire, Knowledge, Ability, Reinforcement)
+
+**Key Statistics:**
+- 6x more likely to meet objectives with structured change management
+- 143% average ROI on change management investment
+- 95% project success rate with excellent change management
+- 70% reduction in change resistance
+
+**Service Deliverables:**
+1. Change Strategy & Planning
+2. Communication & Engagement
+3. Training & Development
+4. Reinforcement & Sustainability
+
 ### About Component
 **File:** `src/About.js`
 

@@ -26,7 +26,8 @@
 ```
 Home (/)
 ├── Services (/services)
-│   └── Strategy & Transformation (/services/strategy)
+│   ├── Strategy & Transformation (/services/strategy)
+│   └── Process Design (/services/process-design)
 ├── About (/about)
 └── Contact (/contact)
 ```
@@ -35,6 +36,7 @@ Home (/)
 1. **Home** - Landing page with overview and call-to-action
 2. **Services** - Detailed service offerings with sub-page navigation
    - **Strategy & Transformation** - Comprehensive strategy consulting details
+   - **Process Design** - Six Sigma and Lean methodology services
 3. **About** - Company mission, values, and brand story
 4. **Contact** - Contact form with Formspree integration
 
@@ -110,6 +112,7 @@ C:\Repo\Alucentra Consulting\
 │   ├── Home.js          # Landing page
 │   ├── Services.js      # Services overview
 │   ├── Strategy.js      # Strategy & Transformation details
+│   ├── ProcessDesign.js # Process Design details
 │   ├── About.js         # Company information
 │   ├── Contact.js       # Contact form
 │   └── components/

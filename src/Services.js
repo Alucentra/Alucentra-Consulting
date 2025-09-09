@@ -30,12 +30,18 @@ export default function Services() {
               </div>
             </div>
           </Link>
-          <div className="bg-white rounded-xl shadow p-6">
-            <h2 className="text-xl font-semibold mb-2">Process Design</h2>
-            <p className="text-gray-600">
-              Creating scalable, efficient systems that support innovation and growth.
-            </p>
-          </div>
+          <Link to="/services/process-design" className="block">
+            <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-shadow duration-200 cursor-pointer border-2 border-transparent hover:border-green-200">
+              <h2 className="text-xl font-semibold mb-2 text-green-700">Process Design</h2>
+              <p className="text-gray-600 mb-3">
+                Creating scalable, efficient systems that support innovation and growth.
+              </p>
+              <div className="text-green-600 text-sm font-medium flex items-center">
+                Learn More
+                <span className="ml-1">→</span>
+              </div>
+            </div>
+          </Link>
           <div className="bg-white rounded-xl shadow p-6">
             <h2 className="text-xl font-semibold mb-2">Change Management</h2>
             <p className="text-gray-600">

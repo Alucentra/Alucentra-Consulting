@@ -102,7 +102,7 @@ Service listing page with detailed service descriptions and navigation to sub-pa
 
 **Services Listed:**
 1. Strategy & Transformation (clickable - links to `/services/strategy`)
-2. Process Design
+2. Process Design (clickable - links to `/services/process-design`)
 3. Change Management
 4. Consulting & Advisory
 
@@ -132,6 +132,40 @@ Comprehensive Strategy & Transformation service page with detailed information.
 2. Organizational Restructuring
 3. Strategic Planning
 4. Culture Transformation
+
+### Process Design Component
+**File:** `src/ProcessDesign.js`
+
+Comprehensive Process Design service page focusing on Six Sigma and Lean methodologies.
+
+**Features:**
+- Breadcrumb navigation
+- Six Sigma and Lean methodology sections
+- DMAIC process visualization (5-step process)
+- Service deliverables (4 main areas)
+- Benefits section with quantified results
+- Industry applications showcase
+- Call-to-action with multiple buttons
+
+**Content Sections:**
+- Hero section with methodology focus
+- Our approach (3-column layout with icons)
+- Proven methodologies (Six Sigma & Lean)
+- What we deliver (4 deliverable areas)
+- DMAIC process (5-step methodology)
+- Benefits (4 benefit categories with metrics)
+- Industry applications (6 industries)
+- Call-to-action section
+
+**Methodologies Featured:**
+1. Six Sigma Excellence (DMAIC, Statistical Process Control)
+2. Lean Manufacturing (Value Stream Mapping, 5S, Kaizen)
+
+**Service Deliverables:**
+1. Process Mapping & Analysis
+2. Quality Management Systems
+3. Workflow Optimization
+4. Continuous Improvement Framework
 
 ### About Component
 **File:** `src/About.js`

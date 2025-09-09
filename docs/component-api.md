@@ -252,13 +252,22 @@ Comprehensive Consulting & Advisory services page featuring strategic planning, 
 ### About Component
 **File:** `src/About.js`
 
-Company information page with mission, values, and brand story.
+Comprehensive company information page featuring executive leadership background, credentials, and extensive industry experience.
 
 **Content Sections:**
-- Company description
-- Mission statement
-- Core values list
+- Leadership introduction (25+ years executive experience)
+- Leadership experience and competencies
+- Key achievements and business results
+- Mission statement (updated with proven methodologies focus)
+- Core values (expanded with descriptive elements)
+- Industry experience (6 major sectors with specific company examples)
 - Brand name etymology
+
+**Notable Achievements:**
+- $100M mobile app transformation with 150K active associates
+- Platinum TITAN Business Award (2023)
+- $500M in digital orders, $200M profitability increase
+- $2M+ Six Sigma project savings
 
 ### Contact Component
 **File:** `src/Contact.js`

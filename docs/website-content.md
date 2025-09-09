@@ -312,19 +312,67 @@ Gain market leadership through superior operational performance, faster delivery
 ### Header
 **Title**: About Us  
 **Main Description**: 
-> Alucentra Consulting is dedicated to illuminating transformation through clarity, insight, and operational excellence. Our team brings deep expertise in strategy, process design, and change management to help organizations thrive in a rapidly evolving world.
+> Alucentra Consulting is led by a proven executive with over 25 years of experience in operations, strategic planning, and digital transformation for businesses valued between $2B-$150B. We specialize in illuminating transformation through clarity, insight, and operational excellence.
+
+### Leadership Experience Section
+**Heading**: Leadership Experience  
+**Content**: Our founder brings proven executive leadership with expertise in business transformation, process design, product management, change management, innovation, and consulting. Strong leadership competencies include team mentoring, service delivery, and Six Sigma & Lean methodologies.
+
+### Key Achievements Section
+**Heading**: Key Achievements
+- Led transformation of $100M internally developed mobile app with 150K active associates
+- Built product management team that earned Platinum TITAN Business Award in 2023
+- Achieved 1M mobile downloads and $500M in digital orders through JobStack app
+- Managed teams of 40+ people with multi-million dollar operating budgets
+- Increased 3-year profitability by $200M through innovative billing solutions
+- Led Six Sigma projects resulting in $2M+ savings
 
 ### Our Mission Section
 **Heading**: Our Mission  
-**Content**: To empower organizations and individuals to achieve their highest potential by providing expert guidance, innovative solutions, and unwavering support.
+**Content**: To empower organizations and individuals to achieve their highest potential by providing expert guidance, innovative solutions, and unwavering support based on proven methodologies and real-world experience.
 
 ### Our Values Section  
 **Heading**: Our Values
-- Clarity
-- Insight  
-- Excellence
-- Integrity
-- Collaboration
+- Clarity in communication and strategy
+- Insight driven by data and experience
+- Excellence in service delivery
+- Integrity in all relationships
+- Collaboration at the center of transformation
+
+### Industry Experience Section
+**Heading**: Industry Experience  
+**Content**: With extensive experience across multiple high-growth and established industries, we understand the unique challenges and opportunities in each sector:
+
+**Column 1:**
+- **Staffing & Workforce Solutions** (TrueBlue Inc. - $2B+ revenue)
+- **Telecommunications** (T-Mobile US - $1.2B business unit)
+- **Financial Services & Banking** (Washington Mutual Bank)
+- **Professional Services & Consulting** (Deloitte, Matisia)
+- **Healthcare & Life Sciences** (consulting projects)
+- **Technology & Digital Transformation** (mobile apps, enterprise systems)
+
+**Column 2:**
+- **Risk Management & Compliance**
+- **Product Management & Development**
+- **Process Optimization & Lean**
+- **Change Management & Transformation**
+- **Strategic Planning & Operations**
+- **Digital Innovation & Mobile Technology**  
+**Description**: Our team brings extensive experience across diverse industries, enabling us to understand unique sector challenges and deliver tailored solutions:
+
+**Industries Covered**:
+- Financial Services & Banking
+- Healthcare & Life Sciences
+- Technology & Software
+- Manufacturing & Industrial
+- Energy & Utilities
+- Retail & Consumer Goods
+- Telecommunications
+- Professional Services
+- Government & Public Sector
+- Education & Non-Profit
+- Transportation & Logistics
+- Real Estate & Construction
 
 ### Brand Name Etymology Section
 **Question**: What does "Alucentra" mean?

@@ -207,6 +207,48 @@ Comprehensive Change Management service page featuring PROSCI and ADKAR methodol
 3. Training & Development
 4. Reinforcement & Sustainability
 
+### Consulting & Advisory Component
+**File:** `src/ConsultingAdvisory.js`
+
+Comprehensive Consulting & Advisory services page featuring strategic planning, project portfolio management, and executive presentations.
+
+**Features:**
+- Breadcrumb navigation
+- Core service areas (4 main specializations)
+- Specialized advisory services (6 additional services)
+- Service deliverables (4 main categories)
+- Benefits section with performance metrics
+- Industry applications showcase
+- Call-to-action with multiple buttons
+
+**Content Sections:**
+- Hero section with strategic expertise focus
+- Our approach (3-column layout with key principles)
+- Core service areas (Strategic Planning, Project Portfolio Management, Executive & Board Presentations, Organizational Development)
+- Specialized advisory services (Risk Management, Performance Analytics, Due Diligence, Market Research, Business Modeling, Interim Leadership)
+- What we deliver (4 deliverable categories)
+- Benefits (4 benefit areas with performance improvements)
+- Industry applications (6 industry sectors)
+- Call-to-action section
+
+**Core Service Areas:**
+1. Strategic Planning (visioning, market analysis, SWOT, roadmap development)
+2. Project Portfolio Management (optimization, prioritization, PMO, governance)
+3. Executive & Board Presentations (briefings, strategic communications, data visualization)
+4. Organizational Development (design, leadership development, performance management)
+
+**Key Performance Metrics:**
+- 40% improvement in strategic alignment
+- 25% average performance improvement
+- 70% reduction in project failures
+- 60% faster decision-making processes
+
+**Service Deliverables:**
+1. Strategic Assessments
+2. Strategic Plans & Roadmaps
+3. Governance & Frameworks
+4. Capacity Building
+
 ### About Component
 **File:** `src/About.js`
 

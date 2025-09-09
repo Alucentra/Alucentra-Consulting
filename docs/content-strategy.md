@@ -105,19 +105,34 @@ This naming convention represents the company's commitment to:
 ### 4. Consulting & Advisory
 **Current Description:** "Providing expert advice and support tailored to your unique challenges and goals."
 
+**Service Focus:** Strategic planning, project portfolio management, executive presentations, and organizational development
+
 **Expanded Content Opportunities:**
-- Strategic planning facilitation
-- Executive coaching
-- Interim leadership
-- Due diligence support
-- Merger and acquisition guidance
-- Board advisory services
+- Strategic planning and visioning facilitation
+- Project portfolio optimization and PMO establishment
+- Executive and board presentation development
+- Organizational design and restructuring
+- Risk management and governance frameworks
+- Due diligence and investment analysis
+- Market research and competitive intelligence
+- Performance analytics and KPI development
+- Business modeling and scenario planning
+- Interim leadership and crisis management
+
+**Key Differentiators:**
+- Data-driven approach with analytical rigor
+- Collaborative partnership model with knowledge transfer
+- Multi-industry expertise across sectors
+- Strategic focus aligned with immediate actions
+- Proven track record with measurable results
 
 **Target Audience:**
-- Senior executives
-- Board members
-- Private equity firms
-- Growing organizations
+- C-suite executives and senior leadership teams
+- Board members and board committees
+- Strategy and business development professionals
+- PMO leaders and project portfolio managers
+- Investment professionals and private equity firms
+- Government and public sector leaders
 
 ## Content Themes & Messaging
 

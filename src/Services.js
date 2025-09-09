@@ -54,12 +54,18 @@ export default function Services() {
               </div>
             </div>
           </Link>
-          <div className="bg-white rounded-xl shadow p-6">
-            <h2 className="text-xl font-semibold mb-2">Consulting & Advisory</h2>
-            <p className="text-gray-600">
-              Providing expert advice and support tailored to your unique challenges and goals.
-            </p>
-          </div>
+          <Link to="/services/consulting-advisory" className="block">
+            <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-shadow duration-200 cursor-pointer border-2 border-transparent hover:border-orange-200">
+              <h2 className="text-xl font-semibold mb-2 text-orange-700">Consulting & Advisory</h2>
+              <p className="text-gray-600 mb-3">
+                Providing expert advice and support tailored to your unique challenges and goals.
+              </p>
+              <div className="text-orange-600 text-sm font-medium flex items-center">
+                Learn More
+                <span className="ml-1">→</span>
+              </div>
+            </div>
+          </Link>
         </section>
       </div>
     </div>

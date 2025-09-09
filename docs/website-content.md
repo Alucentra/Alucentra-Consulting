@@ -495,6 +495,118 @@ Gain market leadership through superior operational performance, faster delivery
 
 ---
 
+## 🎯 CONSULTING & ADVISORY PAGE (`/services/consulting-advisory`)
+
+### Hero Section
+**Heading**: Consulting & Advisory  
+**Tagline**: Strategic expertise and trusted guidance to navigate complex challenges, optimize performance, and drive sustainable growth through data-driven insights and proven methodologies.
+
+### Service Overview
+**Section Title**: Our Approach  
+**Content**: Our consulting and advisory services combine deep industry expertise with analytical rigor to deliver actionable strategies and sustainable solutions. We partner with leadership teams to tackle their most pressing challenges and unlock new opportunities for growth and innovation.
+
+### Core Service Areas
+1. **Strategic Planning**
+   - Strategic visioning and goal setting
+   - Market analysis and competitive positioning
+   - SWOT analysis and scenario planning
+   - Strategic roadmap development
+   - Implementation planning and monitoring
+
+2. **Project Portfolio Management**
+   - Portfolio assessment and optimization
+   - Project prioritization frameworks
+   - Resource allocation strategies
+   - PMO establishment and enhancement
+   - Portfolio governance and reporting
+
+3. **Executive & Board Presentations**
+   - Executive briefing materials
+   - Board presentation development
+   - Strategic communication frameworks
+   - Data visualization and storytelling
+   - Stakeholder engagement strategies
+
+4. **Organizational Development**
+   - Organizational design and restructuring
+   - Leadership development programs
+   - Performance management systems
+   - Culture assessment and development
+   - Capability building initiatives
+
+### Specialized Advisory Services
+- Risk Management
+- Performance Analytics
+- Due Diligence
+- Market Research
+- Business Modeling
+- Interim Leadership
+
+### Service Deliverables
+1. **Strategic Assessments**
+   - Current state analysis and gap assessment
+   - Market and competitive landscape review
+   - Organizational maturity evaluation
+   - Risk and opportunity identification
+   - Strategic options evaluation
+
+2. **Strategic Plans & Roadmaps**
+   - Multi-year strategic plans
+   - Implementation roadmaps with milestones
+   - Resource allocation frameworks
+   - Performance measurement systems
+   - Risk mitigation strategies
+
+3. **Governance & Frameworks**
+   - Decision-making frameworks
+   - Portfolio governance structures
+   - Performance monitoring dashboards
+   - Policy and procedure documentation
+   - Stakeholder engagement models
+
+4. **Capacity Building**
+   - Leadership development programs
+   - Skills transfer and training
+   - Best practice documentation
+   - Tools and template libraries
+   - Ongoing support and coaching
+
+### Benefits with Metrics
+**Strategic Clarity**:
+- 40% improvement in strategic alignment
+- 60% faster decision-making processes
+- 35% better resource utilization
+
+**Enhanced Performance**:
+- 25% average performance improvement
+- 50% reduction in execution risks
+- 30% faster time-to-market
+
+**Risk Mitigation**:
+- 70% reduction in project failures
+- 45% improvement in risk identification
+- 80% better crisis preparedness
+
+**Competitive Advantage**:
+- Enhanced market positioning
+- Improved innovation capacity
+- Stronger stakeholder relationships
+
+### Industry Applications
+- Financial Services
+- Healthcare
+- Manufacturing
+- Technology
+- Energy & Utilities
+- Government & Public Sector
+
+### Call-to-Action
+**Primary Button**: Start Your Strategic Journey  
+**Secondary Button**: View All Services  
+**Supporting Text**: Partner with our experienced consultants to unlock new opportunities, optimize performance, and navigate complex challenges with confidence and strategic clarity.
+
+---
+
 ## 🔄 Content Maintenance
 
 ### Regular Review Items
@@ -520,6 +632,6 @@ Gain market leadership through superior operational performance, faster delivery
 ---
 
 **Last Updated**: September 9, 2025  
-**Content Version**: 1.1  
-**Total Pages**: 7 (Home, Services, Strategy, Process Design, Change Management, About, Contact)  
-**Total Word Count**: ~1,800 words across all pages
+**Content Version**: 1.2  
+**Total Pages**: 8 (Home, Services, Strategy, Process Design, Change Management, Consulting & Advisory, About, Contact)  
+**Total Word Count**: ~2,400 words across all pages

@@ -34,18 +34,18 @@ export default function App() {
 
               {/* Desktop Navigation */}
               <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
-              <Link to="/" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors duration-200">
-                Home
-              </Link>
-              <Link to="/services" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors duration-200">
-                Services
-              </Link>
-              <Link to="/about" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors duration-200">
-                About
-              </Link>
-              <Link to="/contact" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors duration-200">
-                Contact
-              </Link>
+                <Link to="/" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors duration-200">
+                  Home
+                </Link>
+                <Link to="/services" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors duration-200">
+                  Services
+                </Link>
+                <Link to="/about" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors duration-200">
+                  About
+                </Link>
+                <Link to="/contact" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors duration-200">
+                  Contact
+                </Link>
               </div>
             </div>
 

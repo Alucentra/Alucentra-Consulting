@@ -9,24 +9,6 @@ import ProcessDesign from "./ProcessDesign";
 import ChangeManagement from "./ChangeManagement";
 import ConsultingAdvisory from "./ConsultingAdvisory";
 
-// Add CSS for mobile menu visibility
-const mobileMenuStyles = `
-  @media (min-width: 768px) {
-    .mobile-menu-button {
-      display: none !important;
-    }
-  }
-  @media (max-width: 767px) {
-    .mobile-menu-button {
-      display: block !important;
-    }
-  }
-  .hamburger-btn:hover {
-    background-color: #f3f4f6 !important;
-    border-color: #1f2937 !important;
-  }
-`;
-
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -40,7 +22,6 @@ export default function App() {
 
   return (
     <Router>
-      <style dangerouslySetInnerHTML={{ __html: mobileMenuStyles }} />
       <nav className="bg-white shadow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center items-center h-16 relative">
@@ -68,48 +49,39 @@ export default function App() {
               </div>
             </div>
 
-            {/* Mobile menu button - Always visible with media query */}
+            {/* Mobile menu button - Force visibility on mobile */}
             <div
-              className="mobile-menu-button"
+              className="mobile-menu-button md:hidden"
               style={{
                 position: 'absolute',
                 right: '16px',
                 top: '50%',
                 transform: 'translateY(-50%)',
-                display: 'block'
+                zIndex: 1001
               }}
             >
               <button
                 onClick={toggleMobileMenu}
                 aria-expanded={mobileMenuOpen}
-                className="hamburger-btn"
+                className="hamburger-btn p-3 bg-white border-3 border-gray-800 rounded-lg shadow-lg"
                 style={{
-                  display: 'inline-flex',
+                  minWidth: '52px',
+                  minHeight: '52px',
+                  display: 'flex',
                   alignItems: 'center',
-                  justifyContent: 'center',
-                  padding: '12px',
-                  borderRadius: '8px',
-                  backgroundColor: '#ffffff',
-                  border: '2px solid #374151',
-                  color: '#1f2937',
-                  cursor: 'pointer',
-                  minWidth: '48px',
-                  minHeight: '48px',
-                  zIndex: 1000,
-                  boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
-                  outline: 'none'
+                  justifyContent: 'center'
                 }}
               >
                 <span className="sr-only">Open main menu</span>
-                {/* Simple hamburger lines - more reliable than SVG */}
+                {/* Simple hamburger lines */}
                 <div style={{ display: mobileMenuOpen ? 'none' : 'block' }}>
-                  <span style={{ display: 'block', width: '20px', height: '2px', backgroundColor: '#1f2937', margin: '3px 0', transition: 'all 0.3s' }}></span>
-                  <span style={{ display: 'block', width: '20px', height: '2px', backgroundColor: '#1f2937', margin: '3px 0', transition: 'all 0.3s' }}></span>
-                  <span style={{ display: 'block', width: '20px', height: '2px', backgroundColor: '#1f2937', margin: '3px 0', transition: 'all 0.3s' }}></span>
+                  <div className="hamburger-line"></div>
+                  <div className="hamburger-line"></div>
+                  <div className="hamburger-line"></div>
                 </div>
                 {/* X icon */}
                 <div style={{ display: mobileMenuOpen ? 'block' : 'none' }}>
-                  <span style={{ fontSize: '24px', fontWeight: 'bold', color: '#1f2937' }}>✕</span>
+                  <span style={{ fontSize: '28px', fontWeight: 'bold', color: '#1f2937', lineHeight: '1' }}>✕</span>
                 </div>
               </button>
             </div>

@@ -33,7 +33,7 @@ export default function App() {
               </Link>
 
               {/* Desktop Navigation */}
-              <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
+              <div className="desktop-navigation hidden lg:flex items-center space-x-4 lg:space-x-6">
                 <Link to="/" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors duration-200">
                   Home
                 </Link>
@@ -49,9 +49,9 @@ export default function App() {
               </div>
             </div>
 
-            {/* Mobile menu button - Force visibility on mobile */}
+            {/* Mobile menu button - Show only on mobile screens */}
             <div
-              className="mobile-menu-button md:hidden"
+              className="mobile-menu-button"
               style={{
                 position: 'absolute',
                 right: '16px',
@@ -63,13 +63,18 @@ export default function App() {
               <button
                 onClick={toggleMobileMenu}
                 aria-expanded={mobileMenuOpen}
-                className="hamburger-btn p-3 bg-white border-3 border-gray-800 rounded-lg shadow-lg"
+                className="hamburger-btn"
                 style={{
                   minWidth: '52px',
                   minHeight: '52px',
                   display: 'flex',
                   alignItems: 'center',
-                  justifyContent: 'center'
+                  justifyContent: 'center',
+                  backgroundColor: '#ffffff',
+                  border: '3px solid #1f2937',
+                  borderRadius: '8px',
+                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
+                  padding: '12px'
                 }}
               >
                 <span className="sr-only">Open main menu</span>
@@ -89,7 +94,7 @@ export default function App() {
 
           {/* Mobile Navigation Menu */}
           <div
-            className={`${mobileMenuOpen ? 'block' : 'hidden'} md:hidden`}
+            className="mobile-navigation-menu"
             style={{ display: mobileMenuOpen ? 'block' : 'none' }}
           >
             <div className="px-2 pt-2 pb-3 space-y-1 border-t border-gray-200 bg-white">

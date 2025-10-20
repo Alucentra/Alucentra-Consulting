@@ -10,35 +10,58 @@
     content="Alucentra Consulting - Illuminating transformation through clarity, insight, and operational excellence. Expert consulting in strategy, process design, and change management." />
   <title>Alucentra Consulting</title>
   <style>
-    /* Force mobile menu button visibility on mobile devices */
-    @media (max-width: 767px) {
+    /* Mobile menu button - show only on screens smaller than 1024px */
+    @media (max-width: 1023px) {
       .mobile-menu-button {
         display: block !important;
         visibility: visible !important;
         opacity: 1 !important;
       }
 
-      .hamburger-btn {
-        background-color: #ffffff !important;
-        border: 3px solid #1f2937 !important;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
-        position: relative !important;
+      .mobile-navigation-menu {
+        display: block !important;
       }
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
       .mobile-menu-button {
+        display: none !important;
+      }
+
+      .mobile-navigation-menu {
         display: none !important;
       }
     }
 
-    /* Ensure hamburger lines are always visible */
+    /* Ensure hamburger lines are always visible when button is shown */
     .hamburger-line {
       background-color: #1f2937 !important;
       display: block !important;
       width: 22px !important;
       height: 3px !important;
       margin: 4px 0 !important;
+    }
+
+    /* Backup visibility for mobile button */
+    .mobile-menu-button {
+      position: absolute !important;
+      right: 16px !important;
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+      z-index: 1001 !important;
+    }
+
+    /* Desktop navigation control */
+    @media (max-width: 1023px) {
+      .desktop-navigation {
+        display: none !important;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .desktop-navigation {
+        display: flex !important;
+      }
     }
   </style>
 </head>

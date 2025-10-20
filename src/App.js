@@ -9,6 +9,24 @@ import ProcessDesign from "./ProcessDesign";
 import ChangeManagement from "./ChangeManagement";
 import ConsultingAdvisory from "./ConsultingAdvisory";
 
+// Add CSS for mobile menu visibility
+const mobileMenuStyles = `
+  @media (min-width: 768px) {
+    .mobile-menu-button {
+      display: none !important;
+    }
+  }
+  @media (max-width: 767px) {
+    .mobile-menu-button {
+      display: block !important;
+    }
+  }
+  .hamburger-btn:hover {
+    background-color: #f3f4f6 !important;
+    border-color: #1f2937 !important;
+  }
+`;
+
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -22,6 +40,7 @@ export default function App() {
 
   return (
     <Router>
+      <style dangerouslySetInnerHTML={{ __html: mobileMenuStyles }} />
       <nav className="bg-white shadow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center items-center h-16 relative">
@@ -49,45 +68,55 @@ export default function App() {
               </div>
             </div>
 
-            {/* Mobile menu button - Positioned absolute right */}
-            <div className="block md:hidden absolute right-4 top-1/2 transform -translate-y-1/2">
+            {/* Mobile menu button - Always visible with media query */}
+            <div
+              className="mobile-menu-button"
+              style={{
+                position: 'absolute',
+                right: '16px',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                display: 'block'
+              }}
+            >
               <button
                 onClick={toggleMobileMenu}
-                className="inline-flex items-center justify-center p-3 rounded-md text-gray-900 hover:text-indigo-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 transition-colors duration-200 bg-white border border-gray-200"
                 aria-expanded={mobileMenuOpen}
-                style={{ minWidth: '48px', minHeight: '48px', zIndex: 50 }}
+                className="hamburger-btn"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '12px',
+                  borderRadius: '8px',
+                  backgroundColor: '#ffffff',
+                  border: '2px solid #374151',
+                  color: '#1f2937',
+                  cursor: 'pointer',
+                  minWidth: '48px',
+                  minHeight: '48px',
+                  zIndex: 1000,
+                  boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
+                  outline: 'none'
+                }}
               >
                 <span className="sr-only">Open main menu</span>
-                {/* Hamburger icon */}
-                <svg
-                  className={`${mobileMenuOpen ? 'hidden' : 'block'} w-8 h-8 text-gray-900`}
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2.5}
-                  style={{ display: mobileMenuOpen ? 'none' : 'block' }}
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-                {/* Close icon */}
-                <svg
-                  className={`${mobileMenuOpen ? 'block' : 'hidden'} w-8 h-8 text-gray-900`}
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2.5}
-                  style={{ display: mobileMenuOpen ? 'block' : 'none' }}
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
+                {/* Simple hamburger lines - more reliable than SVG */}
+                <div style={{ display: mobileMenuOpen ? 'none' : 'block' }}>
+                  <span style={{ display: 'block', width: '20px', height: '2px', backgroundColor: '#1f2937', margin: '3px 0', transition: 'all 0.3s' }}></span>
+                  <span style={{ display: 'block', width: '20px', height: '2px', backgroundColor: '#1f2937', margin: '3px 0', transition: 'all 0.3s' }}></span>
+                  <span style={{ display: 'block', width: '20px', height: '2px', backgroundColor: '#1f2937', margin: '3px 0', transition: 'all 0.3s' }}></span>
+                </div>
+                {/* X icon */}
+                <div style={{ display: mobileMenuOpen ? 'block' : 'none' }}>
+                  <span style={{ fontSize: '24px', fontWeight: 'bold', color: '#1f2937' }}>✕</span>
+                </div>
               </button>
             </div>
           </div>
 
           {/* Mobile Navigation Menu */}
-          <div 
+          <div
             className={`${mobileMenuOpen ? 'block' : 'hidden'} md:hidden`}
             style={{ display: mobileMenuOpen ? 'block' : 'none' }}
           >

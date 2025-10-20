@@ -24,8 +24,8 @@ export default function App() {
     <Router>
       <nav className="bg-white shadow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            {/* Logo and Navigation Container */}
+          <div className="flex justify-center items-center h-16 relative">
+            {/* Logo and Navigation Container - Centered */}
             <div className="flex items-center">
               {/* Logo */}
               <Link to="/" className="flex items-center mr-6 lg:mr-8" onClick={closeMobileMenu}>
@@ -49,33 +49,36 @@ export default function App() {
               </div>
             </div>
 
-            {/* Mobile menu button */}
-            <div className="md:hidden">
+            {/* Mobile menu button - Positioned absolute right */}
+            <div className="md:hidden absolute right-4">
               <button
                 onClick={toggleMobileMenu}
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-indigo-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 transition-colors duration-200"
-                aria-expanded="false"
+                className="inline-flex items-center justify-center p-3 rounded-md text-gray-900 hover:text-indigo-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 transition-colors duration-200"
+                aria-expanded={mobileMenuOpen}
+                style={{ minWidth: '44px', minHeight: '44px' }}
               >
                 <span className="sr-only">Open main menu</span>
                 {/* Hamburger icon */}
                 <svg
-                  className={`${mobileMenuOpen ? 'hidden' : 'block'} h-6 w-6`}
+                  className={`${mobileMenuOpen ? 'hidden' : 'block'} w-7 h-7`}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
+                  strokeWidth={2}
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
                 {/* Close icon */}
                 <svg
-                  className={`${mobileMenuOpen ? 'block' : 'hidden'} h-6 w-6`}
+                  className={`${mobileMenuOpen ? 'block' : 'hidden'} w-7 h-7`}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
+                  strokeWidth={2}
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
             </div>

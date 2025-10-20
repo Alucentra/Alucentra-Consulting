@@ -54,7 +54,7 @@ export default function App() {
               className="mobile-menu-button"
               style={{
                 position: 'absolute',
-                right: '16px',
+                left: '16px',
                 top: '50%',
                 transform: 'translateY(-50%)',
                 zIndex: 1001

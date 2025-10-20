@@ -7,18 +7,18 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div
-      className="min-h-screen bg-cover bg-center text-gray-800 p-6"
+      className="min-h-screen bg-cover bg-center text-gray-800 p-4 sm:p-6"
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1470&q=80')",
       }}
     >
-      <div className="bg-white/70 backdrop-blur-sm max-w-6xl mx-auto rounded-xl p-8 mt-12">
-        <header className="text-center mb-12">
-          <h1 className="text-4xl font-bold tracking-tight mb-4">
+      <div className="bg-white/70 backdrop-blur-sm max-w-6xl mx-auto rounded-xl p-4 sm:p-6 lg:p-8 mt-6 sm:mt-12">
+        <header className="text-center mb-8 sm:mb-12">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight mb-3 sm:mb-4 px-2">
             Alucentra Consulting
           </h1>
-          <p className="text-lg text-gray-700 max-w-xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-700 max-w-xl mx-auto px-4">
             Illuminating transformation through clarity, insight, and operational excellence.
           </p>
         </header>

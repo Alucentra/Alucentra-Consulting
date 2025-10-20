@@ -3,16 +3,16 @@ import React from "react";
 export default function About() {
   return (
     <div
-      className="min-h-screen bg-cover bg-center text-gray-800 p-6"
+      className="min-h-screen bg-cover bg-center text-gray-800 p-4 sm:p-6"
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1470&q=80')",
       }}
     >
-      <div className="bg-white/70 backdrop-blur-sm max-w-2xl mx-auto rounded-xl p-8 mt-12">
-        <header className="text-center mb-8">
-          <h1 className="text-3xl font-bold mb-4">About Us</h1>
-          <p className="text-lg text-gray-700 max-w-xl mx-auto">
+      <div className="bg-white/70 backdrop-blur-sm max-w-2xl mx-auto rounded-xl p-4 sm:p-6 lg:p-8 mt-6 sm:mt-12">
+        <header className="text-center mb-6 sm:mb-8">
+          <h1 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4 px-2">About Us</h1>
+          <p className="text-base sm:text-lg text-gray-700 max-w-xl mx-auto px-4">
             Alucentra Consulting is led by a proven executive with over 25 years of experience in operations, strategic planning, and digital transformation for businesses valued between $2B-$150B. We specialize in illuminating transformation through clarity, insight, and operational excellence.
           </p>
         </header>

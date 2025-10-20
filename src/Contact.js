@@ -31,16 +31,16 @@ export default function Contact() {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center text-gray-800 p-6"
+      className="min-h-screen bg-cover bg-center text-gray-800 p-4 sm:p-6"
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1470&q=80')",
       }}
     >
-      <div className="bg-white/70 backdrop-blur-sm max-w-2xl mx-auto rounded-xl p-8 mt-12">
-        <header className="text-center mb-8">
-          <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
-          <p className="text-lg text-gray-700 max-w-xl mx-auto">
+      <div className="bg-white/70 backdrop-blur-sm max-w-2xl mx-auto rounded-xl p-4 sm:p-6 lg:p-8 mt-6 sm:mt-12">
+        <header className="text-center mb-6 sm:mb-8">
+          <h1 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4 px-2">Contact Us</h1>
+          <p className="text-base sm:text-lg text-gray-700 max-w-xl mx-auto px-4">
             We'd love to hear from you! Fill out the form below and we'll get back to you soon.
           </p>
         </header>
@@ -83,7 +83,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="bg-indigo-600 text-white px-6 py-3 rounded hover:bg-indigo-700 transition"
+              className="bg-indigo-600 text-white px-4 sm:px-6 py-3 rounded hover:bg-indigo-700 transition min-h-[44px] text-base sm:text-lg"
               disabled={loading}
             >
               {loading ? "Sending..." : "Send"}

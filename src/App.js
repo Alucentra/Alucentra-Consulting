@@ -25,13 +25,15 @@ export default function App() {
       <nav className="bg-white shadow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            {/* Logo */}
-            <Link to="/" className="flex items-center" onClick={closeMobileMenu}>
-              <img src="/logo.png" alt="Alucentra Logo" className="h-8 sm:h-10 w-auto" />
-            </Link>
+            {/* Logo and Navigation Container */}
+            <div className="flex items-center">
+              {/* Logo */}
+              <Link to="/" className="flex items-center mr-6 lg:mr-8" onClick={closeMobileMenu}>
+                <img src="/logo.png" alt="Alucentra Logo" className="h-8 sm:h-10 w-auto" />
+              </Link>
 
-            {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
+              {/* Desktop Navigation */}
+              <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
               <Link to="/" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors duration-200">
                 Home
               </Link>
@@ -44,6 +46,7 @@ export default function App() {
               <Link to="/contact" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors duration-200">
                 Contact
               </Link>
+              </div>
             </div>
 
             {/* Mobile menu button */}
